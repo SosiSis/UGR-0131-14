@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&family=Karla:wght@300&family=Shadows+Into+Light&family=Sora:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Karla:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Karla:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div></div>
-        <nav>
+    <header id="s1">
+        
+        <label for="menu-toggle" id="menu-icon">&#9776;</label>
+        <input type="checkbox" id="menu-toggle">
+        
+        
+        
+        <nav id="menu">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT ME</a></li>
@@ -18,15 +31,15 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
+    <section id="s2" >
+        <div class="profile">
             <div>
-                <img src="images/profile.png" alt="" width="300">
+                <img class="me" src="images/profile.png" alt="" width="300">
             </div>
         </div>
-        <div>
+        <div class="border2">
             
-            <h1>Hi , I'm Sosina </h1>
+            <h1 class="hi"  class="border2"> Hi , I'm Sosina</span> </h1>
             <p>I am a web designer and full stack web developer. In my role, I have the unique opportunity to blend creativity and technical expertise to create visually appealing and highly functional websites. I bring a touch of artistry to the digital realm, envisioning and building virtual structures that captivate visitors.</p>
             
         </div>
@@ -34,10 +47,10 @@
 
     </section>
 
-    <section>
-        <h2>About Me</h2>
-        <div>
-            <h3>Personal Information</h3>
+    <section class="border1" id="s3">
+        <h2 class="center bold color4">About Me</h2>
+        <div >
+            <h3 class="h4">Personal Information</h3>
             <div>
                 <ul>
                     
@@ -47,7 +60,7 @@
                     <li>Address: Addis Ababa, Ethiopia</li>
                 </ul>
             </div>
-            <button></button>
+           
         
             <div>
                 <ul>
@@ -60,17 +73,17 @@
         </div>
        
         <div>
-            <div>
-                <div><p>2 <sup>+</sup><br> years of expriance </p></div>
-                <div>20 <sup>+</sup><br> Happy customer </div>
-                <div>5 <sup>+</sup><br> complated project </div>
-                <div>3 <sup>+</sup><br> awards won </div>
+            <div id="about">
+                <div>2 + </br> years of expriance </div>
+                <div>20 +<br> Happy customer </div>
+                <div>5 +<br> complated project </div>
+                <div>3 +<br> awards won </div>
             </div>
         </div>
-
+     <div class="button color3 margin"><a href="about.html">More me</a></div>  
     </section>
     
-    <section>
+    <section class="border1" id="s4">
         <h2>Testimony</h2>
         <p>These are some testimonies about me.</p>
         <div>
@@ -93,7 +106,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="border2 color" id="s5">
         <h2>Contact Me</h2>
         <form >
             <div>
@@ -110,10 +123,10 @@
             
             <textarea name="text" placeholder="Your message" cols="30" rows="10"></textarea>
             
-            <div><button type="submit" >SUBMIT</button></div>
+            <div><button class="button" type="submit" >SUBMIT</button></div>
         </form>
     </section>
-    <footer>
+    <footer id="s1" class="grid">
         <a href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
         <a href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
         <a href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
