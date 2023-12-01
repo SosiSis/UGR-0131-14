@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div></div>
-        <nav>
+    <header id="s1">
+        <label for="menu-toggle" id="menu-icon">&#9776;</label>
+        <input type="checkbox" id="menu-toggle">
+            
+        
+        <nav id="menu">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT ME</a></li>
@@ -18,72 +22,188 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <h2>MY SKILLS</h2>
-        <div>
-            <div>
-                <div>95%</div>
-                <p>HTML</p>
+    <section id="s2">
+        <h2 class="bold center">MY SKILLS</h2>
+        <div class="skill-container">
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">HTML <br>95%</div> 
+                    </div>
+                </div>
+                <svg id="html" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="##D6A217" />
+                          <stop offset="100%" stop-color="#D6A217" />
+                       </linearGradient>
+                    </defs>
+                    <circle id="c1" cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+                
             </div>
-            <div>
-                <div>60%</div>
-                <p>JAVASCRIPT</p>
+            
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">JAVASCRIPT <br>60%</div> 
+                    </div>
+                </div>
+                <svg id="javascript"  xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="##D6A217" />
+                          <stop offset="100%" stop-color="#D6A217" />
+                       </linearGradient>
+                    </defs>
+                    <circle id="c2" cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+
+                
             </div>
-            <div>
-                <div>75%</div>
-                <p>CSS</p>
+            
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">CSS <br>75%</div> 
+                    </div>
+                </div>
+                <svg id="css"  xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="##D6A217" />
+                          <stop offset="100%" stop-color="#D6A217" />
+                       </linearGradient>
+                    </defs>
+                    <circle id="c3" cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+
             </div>
-            <div> 
-                <div>55%</div>
-                <p>JQUERY</p>
+            
+            <div class="skill"> 
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">JQUERY <br>55%</div> 
+                    </div>
+                </div>
+                <svg id="jquery"  xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="#D6A217" />
+                          <stop offset="100%" stop-color="#D6A217" />
+                       </linearGradient>
+                    </defs>
+                    <circle id="c4" cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+                
             </div>
         </div>
-        <button></button>
-        <div>
-            <div>
-                <div>75%</div>
-                <p>REACT</p>
+        
+        <div class="skill-container">
+            <div class="skill" >
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">REACT <br>75%</div> 
+                    </div>
+                </div>
+                <svg id="react"  xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="##D6A217" />
+                          <stop offset="100%" stop-color="#D6A217" />
+                       </linearGradient>
+                    </defs>
+                    <circle id="c5" cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+                
             </div>
-            <div>
-                <div>55%</div>
-                <p>BOOTSTRAP</p>
+            
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">BOOTSTRAP <br>55%</div> 
+                    </div>
+                </div>
+                <svg id="bootstrap"  xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="##D6A217" />
+                          <stop offset="100%" stop-color="#D6A217" />
+                       </linearGradient>
+                    </defs>
+                    <circle id="c6" cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+                
             </div>
-            <div>
-                <div>45%</div>
-                <p>PHP</p>
+            
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">PHP <br>45%</div> 
+                    </div>
+                </div>
+                <svg id="php"  xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="##D6A217" />
+                          <stop offset="100%" stop-color="#D6A217" />
+                       </linearGradient>
+                    </defs>
+                    <circle id="c7"   cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+                
             </div>
-            <div>
-                <div>75%</div>
-                <p>NODE</p>
+            
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="number">NODE <br>75%</div> 
+                    </div>
+                </div>
+                <svg id="node"  xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="##D6A217" />
+                          <stop offset="100%" stop-color="#D6A217"/>
+                       </linearGradient>
+                    </defs>
+                    <circle id="c8" cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+                
             </div>
+            
         </div>
+       
     </section>
-    <section>
+    <section id="s3">
         <h2>MY PROJECTS</h2>
         <p>Here are some of my projects.</p>
         <div><video src="audio_and_video/project.mp4" controls width="1000"></video></div>
         
     </section>
-    <section>
+    <section id="s4">
         <h2>Source code</h2>
         <p> If you want to see source code of the provious projects</p>
-        <div>
-            <img src="images/icons/project_icon.png" width="20"  alt="icon">
-            <span><a href="https://github.com/SosiSis/practice-for-me">Node project</a></span>
-        </div>
-        <div>
-            <img src="images/icons/project_icon.png" width="20" alt="icon">
-            <span><a href="https://github.com/SosiSis/practice-for-me">React project</a></span>
-        </div>
-        <div>
-            <img src="images/icons/project_icon.png" width="20"  alt="icon">
-            <span><a href="https://github.com/SosiSis/practice-for-me">Vanila Javascript</a></span>
+        <div class="expriance2">
+            <div>
+                <img src="images/icons/project_icon.png" width="20"  alt="icon">
+                <span><a href="https://github.com/SosiSis/practice-for-me">Node project</a></span>
+            </div>
+            <div>
+                <img src="images/icons/project_icon.png" width="20" alt="icon">
+                <span><a href="https://github.com/SosiSis/practice-for-me">React project</a></span>
+            </div>
+            <div>
+                <img src="images/icons/project_icon.png" width="20"  alt="icon">
+                <span><a href="https://github.com/SosiSis/practice-for-me">Vanila Javascript</a></span>
+            </div>
+            
         </div>
         
        
         
     </section>
-    <footer>
+    <footer id="s1" class="flex">
         <a href="#"><img src="images/icons/instagram_logo.png" alt=""  width="20"></a>
         <a href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
         <a href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>

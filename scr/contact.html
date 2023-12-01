@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div></div>
-        <nav>
+    <header id="s1">
+        <label for="menu-toggle" id="menu-icon">&#9776;</label>
+        <input type="checkbox" id="menu-toggle">
+        <nav id="menu">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT ME</a></li>
@@ -18,13 +20,13 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="expriance border1" id="s2">
         <h2>Contact Me</h2>
         <div>
             <img src="images/icons/location_icon.png" width="20"  alt="img">
             <span>Address: Addis Ababa,Ethiopia</span>
         </div>
-        <div>
+        <div class="email">
             <img src="images/icons/mail_icon.png" width="20" alt="img">
             <span>Email: <a href="mailto:sosinasisay30@gmail.com">sosinasisay30@gmail.com</a></span>
         </div>
@@ -36,10 +38,10 @@
         
        
     </section>
-    <section>
+    <section id="s3">
         <h5>Fill this form to contact me</h5>
         
-        <form >
+        <form class="expriance border1">
             <div>
                
                 <div>
@@ -52,10 +54,10 @@
             
             <textarea name="message" placeholder="Your message" cols="30" rows="10"></textarea>
             
-            <div><button type="submit" >SUBMIT</button></div>
+            <div><button class="button" type="submit" >SUBMIT</button></div>
         </form>
     </section>
-    <footer>
+    <footer id="s1" class="flex">
         <a href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
         <a href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
         <a href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
