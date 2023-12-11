@@ -88,20 +88,21 @@ video{
     border: 1px solid #2a2929 ;
     color: #D6A217;
 }
-.about__image{
+.about-me__image{
     background-image: url(../images/congra.png);
     height: 500px;
     background-size: cover;
     background-position: center ;
     width: 100%;
+    margin: 0px 0px 40px 0px;
     max-width: 100% !important;
 }
-.about__me--h1{
+.about-me--h1{
     font-family: 'Black Ops One','serif', cursive;
 color:#131212;
 padding: 10px 10px 10px 20px;
 }
-.about__image__div{
+.about-me__image--div{
     
     max-width: 100% !important;
 }
@@ -419,7 +420,7 @@ circle{
 /* ******************************************************************************for mobile landscape************************************************************************* */
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .about__image__div{
+    .about-me__image--div{
         margin: 300px 0px 100px 0px;
     }
     
@@ -499,27 +500,27 @@ circle{
    .about-section{
     display: flex;
    }
-   .about__image{
+   .about-me__image{
     justify-content: space-between;
     align-items: space-between;
    }
-   .about__image div{
+   .about-me__image div{
     flex:1 1 200px;
    }
-   .about__me{
+   .about-me{
     display: flex;
    
 }
-.about__me div{
+.about-me div{
     flex:1 1 50%;
    }
-   .about__image{
+   .about-me__image{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    }
-   .about__image{
+   .about-me__image{
     display: flex;
     
     justify-content: center;
@@ -527,7 +528,7 @@ circle{
     
 
    }
-   .about__image-width{
+   .about-me__image--width{
     width: 100%;
    }
    .testimony-section{
@@ -625,33 +626,33 @@ circle{
             width:200px 
         }
     
-    .about__image__div{
+    .about-me__image--div{
         margin: 200px 0px 168px 0px;
     }
        .about-section{
         display: flex;
        }
-       .about__image{
+       .about-me__image{
         justify-content: space-between;
         align-items: space-between;
        }
-       .about__image div{
+       .about-me__image div{
         flex:1 1 200px;
        }
-       .about__me{
+       .about-me{
         display: flex;
        
     }
-    .about__me div{
+    .about-me div{
         flex:1 1 50%;
        }
-       .about__image{
+       .about-me__image{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
        }
-       .about__image{
+       .about-me__image{
         display: flex;
         
         justify-content: center;
@@ -659,7 +660,7 @@ circle{
         
     
        }
-       .about__image-width{
+       .about-me__image--width{
         max-width: 100%;
        }
        .testimony-section{
@@ -773,33 +774,33 @@ circle{
         width:200px 
     }
     
-    .about__image__div{
+    .about-me__image--div{
         margin: 200px 0px 170px 0px;
     }
    .about-section{
     display: flex;
    }
-   .about__image{
+   .about-me__image{
     justify-content: space-between;
     align-items: space-between;
    }
-   .about__image div{
+   .about-me__image div{
     flex:1 1 200px;
    }
-   .about__me{
+   .about-me{
     display: flex;
    
 }
-.about__me div{
+.about-me div{
     flex:1 1 50%;
    }
-   .about__image{
+   .about-me__image{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    }
-   .about__image{
+   .about-me__image{
     display: flex;
     
     justify-content: center;
@@ -807,7 +808,7 @@ circle{
     
 
    }
-   .about__image-width{
+   .about-me__image--width{
     width: 100%;
    }
    .testimony-section{
