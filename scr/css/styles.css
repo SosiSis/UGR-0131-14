@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 2px;
     font-family: 'Bree Serif', serif;
     /* font-family: 'Karla', sans-serif; */
@@ -62,6 +62,7 @@ video{
 .hero-section__description--h1{
     font-family: 'Black Ops One','serif', cursive;
     color:#131212;
+    font-size: 20px;
     padding: 10px 10px 10px 20px;
     }
 
@@ -99,6 +100,7 @@ video{
 }
 .about-me--h1{
     font-family: 'Black Ops One','serif', cursive;
+    font-size: 30px;
 color:#131212;
 padding: 10px 10px 10px 20px;
 }
