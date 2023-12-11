@@ -4,7 +4,6 @@
     font-size: 13px;
     font-weight: 2px;
     font-family: 'Bree Serif', serif;
-    /* font-family: 'Karla', sans-serif; */
     
 }
 img{
@@ -59,6 +58,11 @@ video{
     0px 12px 10px -10px rgba(0,0,0,0.05);
     background-color: #000000; 
 }
+.hero-section__description p{
+    font-size: 20px;
+
+}
+
 .hero-section__description--h1{
     font-family: 'Black Ops One','serif', cursive;
     color:#131212;
@@ -94,6 +98,11 @@ video{
     color:#D6A217;
     font-size: 30px;
     padding: 10px 10px 10px 20px;
+
+}
+.about-me div p ,.about-me-section p,.about-me-section q{
+    font-size: 18px;
+
 
 }
 .about-me__image{
@@ -206,6 +215,10 @@ input{
 .expriance2 div{
     width: 200px;
     text-decoration: none;
+}
+.resume-section p,.resume-section h2,.resume-section ul li,.resume-section h3{
+    font-size: 20px;
+    font-weight: 2px;
 }
 
 
@@ -636,7 +649,7 @@ circle{
         }
     
     .about-me__image--div{
-        margin: 200px 0px 168px 0px;
+        margin: 250px 0px 168px 0px;
     }
        .about-section__div{
         display: flex;
@@ -784,7 +797,7 @@ circle{
     }
     
     .about-me__image--div{
-        margin: 200px 0px 170px 0px;
+        margin: 250px 0px 170px 0px;
     }
    .about-section__div__div{
     display: flex;
