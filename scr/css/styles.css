@@ -67,14 +67,14 @@ video{
     }
 
 /****************************************************************** for about page for all screen************************************ */
-#about-section__box{
+#about-section__div--box{
     display: flex;
     justify-content: space-between;
     align-items: space-between;
     flex-wrap: wrap;
    
 }
-#about-section__box div{
+#about-section__div--box div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +88,13 @@ video{
     max-width:100%;
     border: 1px solid #2a2929 ;
     color: #D6A217;
+}
+.about-section h2{
+    font-family: 'Black Ops One','serif', cursive;
+    color:#D6A217;
+    font-size: 30px;
+    padding: 10px 10px 10px 20px;
+
 }
 .about-me__image{
     background-image: url(../images/congra.png);
@@ -499,7 +506,7 @@ circle{
         align-self: self-start;
     }
     
-   .about-section{
+   .about-section__div{
     display: flex;
    }
    .about-me__image{
@@ -620,10 +627,10 @@ circle{
             
             align-self: self-start;
         }
-        #about-section__box{
+        #about-section__div--box{
         justify-content: space-between;
     }
-        #about-section__box div{
+        #about-section__div--box div{
             margin: 10px 20px;
             width:200px 
         }
@@ -631,7 +638,7 @@ circle{
     .about-me__image--div{
         margin: 200px 0px 168px 0px;
     }
-       .about-section{
+       .about-section__div{
         display: flex;
        }
        .about-me__image{
@@ -768,10 +775,10 @@ circle{
         
         align-self: self-start;
     }
-    #about-section__box{
+    #about-section__div--box{
         justify-content: space-between;
     }
-    #about-section__box div{
+    #about-section__div--box div{
         margin: 10px 20px;
         width:200px 
     }
@@ -779,7 +786,7 @@ circle{
     .about-me__image--div{
         margin: 200px 0px 170px 0px;
     }
-   .about-section{
+   .about-section__div__div{
     display: flex;
    }
    .about-me__image{
