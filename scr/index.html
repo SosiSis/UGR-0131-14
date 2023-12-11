@@ -16,13 +16,11 @@
 <body>
     <header id="s1">
         
-        <label for="menu-toggle" id="menu-icon">&#9776;</label>
-        <input type="checkbox" id="menu-toggle">
-        
-        
-        
+        <label class="header__menu--none"  for="menu-toggle" id="menu-icon">&#9776;</label>
+        <input class="header__menu--none" type="checkbox" id="menu-toggle"> 
+       
         <nav id="menu">
-            <ul>
+            <ul class="nav__saction">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT ME</a></li>
                 <li><a href="resume.html">RESUME</a></li>
@@ -31,16 +29,16 @@
             </ul>
         </nav>
     </header>
-    <section id="s2" >
-        <div class="profile">
+    <section id="s2" class="hero-section" >
+        <div class="hero-section__profile">
             <div>
-                <img class="me" src="images/profile.png" alt="" width="300">
+                <img class="hero-section__profile--img" src="images/profile.png" alt="" width="300">
             </div>
         </div>
-        <div class="border2">
+        <div class="hero-section__description  border2 ">
             
-            <h1 class="hi"  class="border2"> Hi , I'm Sosina</span> </h1>
-            <p>I am a web designer and full stack web developer. In my role, I have the unique opportunity to blend creativity and technical expertise to create visually appealing and highly functional websites. I bring a touch of artistry to the digital realm, envisioning and building virtual structures that captivate visitors.</p>
+            <h1 class="hero-section__description--h1 border2"> Hi , I'm Sosina</span> </h1>
+            <p class="hero-section__description--p">I am a web designer and full stack web developer. In my role, I have the unique opportunity to blend creativity and technical expertise to create visually appealing and highly functional websites. I bring a touch of artistry to the digital realm, envisioning and building virtual structures that captivate visitors.</p>
             
         </div>
         
@@ -49,67 +47,71 @@
 
     <section class="border1" id="s3">
         <h2 class="center bold color4">About Me</h2>
-        <div >
-            <h3 class="h4">Personal Information</h3>
+        <h3 class="h4">Personal Information</h3>
+        <div class="about-section" >
             <div>
-                <ul>
-                    
-                    <li>First name:Sosina</li>
-                    <li>Age:20</li>
-                    <li>Phone:+251-993763308</li>
-                    <li>Address: Addis Ababa, Ethiopia</li>
-                </ul>
+                <div>
+                    <ul>
+                        
+                        <li>First name:Sosina</li>
+                        <li>Age:20</li>
+                        <li>Phone:+251-993763308</li>
+                        <li>Address: Addis Ababa, Ethiopia</li>
+                    </ul>
+                </div>
+            
+            
+                <div>
+                    <ul>
+                        <li>Last name:Sisay</li>
+                        <li>Nationality:Ethiopian</li>
+                        <li>Email:sosinasisay30@gmail.com</li>
+                        <li>Language:English,Amharic</li>
+                    </ul>
+                </div>
             </div>
-           
         
             <div>
-                <ul>
-                    <li>Last name:Sisay</li>
-                    <li>Nationality:Ethiopian</li>
-                    <li>Email:sosinasisay30@gmail.com</li>
-                    <li>Language:English,Amharic</li>
-                </ul>
+                <div id="about-section__box">
+                    <div>2 + </br> years of expriance </div>
+                    <div>20 +<br> Happy customer </div>
+                    <div>5 +<br> complated project </div>
+                    <div>3 +<br> awards won </div>
+                </div>
             </div>
+
         </div>
-       
-        <div>
-            <div id="about">
-                <div>2 + </br> years of expriance </div>
-                <div>20 +<br> Happy customer </div>
-                <div>5 +<br> complated project </div>
-                <div>3 +<br> awards won </div>
-            </div>
-        </div>
-     <div class="button color3 margin"><a href="about.html">More me</a></div>  
+                
+        <div class="button color3 margin"><a href="about.html">More me</a></div>  
     </section>
-    
+        
     <section class="border1" id="s4">
-        <h2>Testimony</h2>
-        <p>These are some testimonies about me.</p>
-        <div>
-            <div>
-                <div><audio src="audio_and_video/testimony1.ogg" controls></audio></div>
-                <p>Roman Kebede</p>
-                <p>Manager of the project I work.</p>
-            </div>
-            <div>
-                <div><audio src="audio_and_video/testimony2.ogg" controls></audio></div>
-                <p>Liya Daniel</p>
-                <p>Teammate</p>
-            </div>
-            <div>
-                <div><audio src="audio_and_video/testimony1.ogg" controls></audio></div>
-                <p>Rediet Wondume</p>
-                <p>My advisor</p>
-            </div>
+            <h2>Testimony</h2>
+            <p>These are some testimonies about me.</p>
+            <div class="testimony-section">
+                <div>
+                    <div><audio src="audio_and_video/testimony1.ogg" controls></audio></div>
+                    <p>Roman Kebede</p>
+                    <p>Manager of the project I work.</p>
+                </div>
+                <div>
+                    <div><audio src="audio_and_video/testimony2.ogg" controls></audio></div>
+                    <p>Liya Daniel</p>
+                    <p>Teammate</p>
+                </div>
+                <div>
+                    <div><audio src="audio_and_video/testimony1.ogg" controls></audio></div>
+                    <p>Rediet Wondume</p>
+                    <p>My advisor</p>
+                </div>
             
-        </div>
+            </div>
     </section>
 
     <section class="border2 color" id="s5">
         <h2>Contact Me</h2>
-        <form class="expriance">
-            <div>
+        <form class="form">
+            <div class="input-section">
                 <div>
                     <input type="text" name="name" placeholder="Your name">
                 </div>
