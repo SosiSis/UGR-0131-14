@@ -4,90 +4,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .circle {
+          fill: none;
+          stroke: url(#GradientColor);
+          stroke-width: 20px;
+          stroke-dasharray: 472;
+          stroke-dashoffset: 472;
+          animation: anim 2s linear forwards;
+        }
+        #c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8{
+    animation: anim1 2s linear forwards;}
+
+        
+        #html,#css,#react,#jquery,#bootstrap,#node,#javascript,#php {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        @keyframes anim1{
+        100%{
+        stroke-dashoffset: 50;
+        }
+        }
+        @keyframes anim2{
+        100%{
+        stroke-dashoffset: 188;
+        }
+        }
+
+
+        @keyframes anim3 {
+          100% {
+            stroke-dashoffset: 212;
+          }
+        }
+        
+        @keyframes anim4 {
+          100% {
+            stroke-dashoffset: 118;
+          }
+        }
+        
+        @keyframes anim5 {
+          100% {
+            stroke-dashoffset: 212;
+          }
+        }
+        
+        @keyframes anim6 {
+          100% {
+            stroke-dashoffset: 260;
+          }
+        }
+        
+        @keyframes anim7 {
+          100% {
+            stroke-dashoffset: 118;
+          }
+        }
+    </style>
+        
+        
 </head>
 <body>
-    <header>
-        <div></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT ME</a></li>
-                <li><a href="resume.html">RESUME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li> <a href="contact.html">CONTACT ME</a></li>
+    <header class="hero has-background-black" id="s">
+        
+       
+        
+        <nav class="navbar">
+            <a class="navbar-burger burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="navbar-menu is-justify-content-space-around nav-links has-background-black ">
+                <li ><a class="navbar-item has-text-link-light" href="index.html">HOME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="about.html">ABOUT ME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="resume.html">RESUME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="portfolio.html">PORTFOLIO</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="contact.html">CONTACT ME</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h2>MY SKILLS</h2>
-        <div>
-            <div>
-                <div>95%</div>
-                <p>HTML</p>
+    <section class="section has-background-link-light box has-shadow">
+        <h2 class="title">MY SKILLS</h2>
+        <div class="box has-shadow" >
+            <div class="columns" >
+                <span class="column is-2">HTML</span>
+                <progress class="progress is-normal is-10" value="95" max="100">95%</progress>
+                
             </div>
-            <div>
-                <div>60%</div>
-                <p>JAVASCRIPT</p>
+            <div class="columns" >
+                <span class="column is-2">JAVASCRIPT</span>
+                <progress class="progress is-normal is-10" value="60" max="100">60%</progress>
+                
             </div>
-            <div>
-                <div>75%</div>
-                <p>CSS</p>
+            <div class="columns" >
+                <span class="column is-2">NODE</span>
+                <progress class="progress is-normal is-10" value="75" max="100">75%</progress>
+                
             </div>
-            <div> 
-                <div>55%</div>
-                <p>JQUERY</p>
+            <div class="columns" >
+                <span class="column is-2">PHP</span>
+                <progress class="progress is-normal is-10" value="45" max="100">45%</progress>
+                
             </div>
-        </div>
-        <button></button>
-        <div>
-            <div>
-                <div>75%</div>
-                <p>REACT</p>
+            <div class="columns" >
+                <span class="column is-2">BOOTSTRAP</span>
+                <progress class="progress is-normal is-10" value="55" max="100">55%</progress>
+                
             </div>
-            <div>
-                <div>55%</div>
-                <p>BOOTSTRAP</p>
+            <div class="columns" >
+                <span class="column is-2">REACT</span>
+                <progress class="progress is-normal is-10" value="75" max="100">75%</progress>
+                
             </div>
-            <div>
-                <div>45%</div>
-                <p>PHP</p>
+            <div class="columns" >
+                <span class="column is-2">JQUERYT</span>
+                <progress class="progress is-normal is-10" value="55" max="100">55%</progress>
+                
             </div>
-            <div>
-                <div>75%</div>
-                <p>NODE</p>
+            <div class="columns" >
+                <span class="column is-2">CSS</span>
+                <progress class="progress is-normal is-10" value="15" max="100">75%</progress>
+                
             </div>
-        </div>
+            
+           
+          
+        </divc>
     </section>
-    <section>
-        <h2>MY PROJECTS</h2>
-        <p>Here are some of my projects.</p>
-        <div><video src="audio_and_video/project.mp4" controls width="1000"></video></div>
+    <section class="section has-background-link-light box has-shadow">
+        <h2 class="title">MY PROJECTS</h2>
+        <p class="subtitle">Here are some of my projects.</p>
+        <div class="pl-6"><video class="is-fullwidth" src="audio_and_video/project.mp4" controls width="1000"></video></div>
         
     </section>
-    <section>
-        <h2>Source code</h2>
-        <p> If you want to see source code of the provious projects</p>
-        <div>
-            <img src="images/icons/project_icon.png" width="20"  alt="icon">
-            <span><a href="https://github.com/SosiSis/practice-for-me">Node project</a></span>
-        </div>
-        <div>
-            <img src="images/icons/project_icon.png" width="20" alt="icon">
-            <span><a href="https://github.com/SosiSis/practice-for-me">React project</a></span>
-        </div>
-        <div>
-            <img src="images/icons/project_icon.png" width="20"  alt="icon">
-            <span><a href="https://github.com/SosiSis/practice-for-me">Vanila Javascript</a></span>
+    <section class="section box has-shadow  has-background-link-light">
+        <h2 class="title">Source code</h2>
+        <p class="subtitle"> If you want to see source code of the provious projects</p>
+        <div class="">
+            <div class="columns">
+                <div class="column">
+                    <img src="images/icons/project_icon.png" width="20"  alt="icon">
+                    <span><a href="https://github.com/SosiSis/practice-for-me">Node project</a></span>
+                </div>
+                <div class="column">
+                    <img src="images/icons/project_icon.png" width="20" alt="icon">
+                    <span><a href="https://github.com/SosiSis/practice-for-me">React project</a></span>
+                </div>
+                <div class="column">
+                    <img src="images/icons/project_icon.png" width="20"  alt="icon">
+                    <span><a href="https://github.com/SosiSis/practice-for-me">Vanila Javascript</a></span>
+                </div>
+                
+
+            </div>
+            
         </div>
         
        
         
     </section>
-    <footer>
-        <a href="#"><img src="images/icons/instagram_logo.png" alt=""  width="20"></a>
-        <a href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
-        <a href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
-    </footer>
     
+    <footer  class="footer has-text-centered py-1 has-background-black">
+        <a  href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
+        <a  href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
+        <a  href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
+    </footer>
+    <script defer>
+        //mobile menu
+        console.log('hi');
+        const burgericon = document.querySelector('.burger');
+        const navbarMenu = document.querySelector('.nav-links');
+
+        burgericon.addEventListener('click',()=>{navbarMenu.classList.toggle('is-active')});
+    </script>
 </body>
 </html>

@@ -4,120 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&family=Karla:wght@300&family=Shadows+Into+Light&family=Sora:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Karla:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Karla:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="../scr/css/styles.css">
+    
 </head>
 <body>
-    <header>
-        <div></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT ME</a></li>
-                <li><a href="resume.html">RESUME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li> <a href="contact.html">CONTACT ME</a></li>
+    <header class="hero has-background-black has-shadow">
+        
+       
+        
+        <nav class="navbar">
+            <a class="navbar-burger burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="navbar-menu is-justify-content-space-around nav-links has-background-black ">
+                <li ><a class="navbar-item has-text-link-light" href="index.html">HOME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="about.html">ABOUT ME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="resume.html">RESUME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="portfolio.html">PORTFOLIO</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="contact.html">CONTACT ME</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <div>
-                <img src="images/profile.png" alt="" width="300">
+    <section class="columns mx-0 has-background-danger-light box has-shadow" >
+        <div class="px-1 column is-flex-order-2">
+            <div class="px-1 is-flex is-justify-content-center ">
+                <img class="hero-section__profile--img" src="images/profile.png" alt="" width="300">
             </div>
         </div>
-        <div>
+        <div class="section column px-1 is-three-fifths is-flex is-flex-direction-column is-justify-content-center is-flex-order-1">
             
-            <h1>Hi , I'm Sosina </h1>
-            <p>I am a web designer and full stack web developer. In my role, I have the unique opportunity to blend creativity and technical expertise to create visually appealing and highly functional websites. I bring a touch of artistry to the digital realm, envisioning and building virtual structures that captivate visitors.</p>
+            <h1 class="title ">  Hi , I'm Sosina </h1>
+            <p >I am a web designer and full stack web developer. In my role, I have the unique opportunity to blend creativity and technical expertise to create visually appealing and highly functional websites. I bring a touch of artistry to the digital realm, envisioning and building virtual structures that captivate visitors.</p>
             
         </div>
         
 
     </section>
 
-    <section>
-        <h2>About Me</h2>
-        <div>
-            <h3>Personal Information</h3>
-            <div>
-                <ul>
-                    
-                    <li>First name:Sosina</li>
-                    <li>Age:20</li>
-                    <li>Phone:+251-993763308</li>
-                    <li>Address: Addis Ababa, Ethiopia</li>
-                </ul>
-            </div>
-            <button></button>
+    <section class="section box has-shadow" id="s3">
+        <h2 class="title center bold color4">About Me</h2>
+        <h3 class="subtitle">Personal Information</h3>
+        <div class="columns is-4-desktop" >
+            <div class="column">
+                
+                    <ul>
+                        
+                        <li>First name:Sosina</li>
+                        <li>Last name:Sisay</li>
+                        <li>Age:20</li>
+                        <li>Phone:+251-993763308</li>
+                       
+                    </ul>
+            
+                    <ul>
+                        <li>Address: Addis Ababa, Ethiopia</li>
+                        <li>Nationality:Ethiopian</li>
+                        <li>Email:sosinasisay30@gmail.com</li>
+                        <li>Language:English,Amharic</li>
+                    </ul>
+                
+                </div>
         
-            <div>
-                <ul>
-                    <li>Last name:Sisay</li>
-                    <li>Nationality:Ethiopian</li>
-                    <li>Email:sosinasisay30@gmail.com</li>
-                    <li>Language:English,Amharic</li>
-                </ul>
-            </div>
-        </div>
-       
-        <div>
-            <div>
-                <div><p>2 <sup>+</sup><br> years of expriance </p></div>
-                <div>20 <sup>+</sup><br> Happy customer </div>
-                <div>5 <sup>+</sup><br> complated project </div>
-                <div>3 <sup>+</sup><br> awards won </div>
-            </div>
-        </div>
-
-    </section>
-    
-    <section>
-        <h2>Testimony</h2>
-        <p>These are some testimonies about me.</p>
-        <div>
-            <div>
-                <div><audio src="audio_and_video/testimony1.ogg" controls></audio></div>
-                <p>Roman Kebede</p>
-                <p>Manager of the project I work.</p>
-            </div>
-            <div>
-                <div><audio src="audio_and_video/testimony2.ogg" controls></audio></div>
-                <p>Liya Daniel</p>
-                <p>Teammate</p>
-            </div>
-            <div>
-                <div><audio src="audio_and_video/testimony1.ogg" controls></audio></div>
-                <p>Rediet Wondume</p>
-                <p>My advisor</p>
-            </div>
-            
-        </div>
-    </section>
-
-    <section>
-        <h2>Contact Me</h2>
-        <form >
-            <div>
-                <div>
-                    <input type="text" name="name" placeholder="Your name">
-                </div>
-                <div>
-                    <input type="text" name="email" placeholder="Your email">
+            <div class="column is-8-desktop">
+                <div class="columns  is-variable is-4 is-justify-content-space-around">
+                    <div class="column box px-2 px-4  has-background-danger-light has-text-black is-rounded  has-border is-3-desktop is-3-mobile">2 + </br> years of expriance </div>
+                    <div class="column box  has-background-danger-light has-text-black is-rounded  has-border is-3-desktop is-3-mobile" >20 +<br> Happy customer </div>
+                    <div class="column box  has-background-danger-light has-text-black is-rounded has-border is-3-desktop is-3-mobile">5 +<br> complated project </div>
+                    <div class="column box  has-background-danger-light has-text-black is-rounded has-border is-3-desktop is-3-mobile">3 +<br>   awards    won </div>
                 </div>
             </div>
-            <div>
-                <input type="text" name="subject" placeholder="Your subject">
+
+        </div>
+                
+        <div class="button has-background-grey "><a class="has-text-link-light " href="about.html">More me</a></div>  
+    </section>
+        
+    <section class="section box has-shadow my-1" id="s4">
+            <h2 class="title">Testimony</h2>
+            <p class="subtitle">These are some testimonies about me.</p>
+            <div class="box has-shadow container  section columns has-background-danger-light  is-multiline is-flex-wrap-wrap is-justify-content-space-between ">
+                <div class="column is-3-desktop is-6-tablet">
+                    <div class=" is-overflow-x-auto"><audio class="is-max-widescreen" src="audio_and_video/testimony1.ogg" controls></audio></div>
+                    <p>Roman Kebede</p>
+                    <p>Manager of the project I work.</p>
+                </div>
+                <div class="container  column is-3-desktop is-6-tablet  ">
+                    <div class="is-overflow-x-auto"><audio class="is-max-widescreen" src="audio_and_video/testimony2.ogg" controls></audio></div>
+                    <p>Liya Daniel</p>
+                    <p>Teammate</p>
+                </div>
+                <div class="container px-3 column is-3-desktop is-6-tablet   ">
+                    <div class="is-overflow-x-auto"><audio class="is-max-widescreen" src="audio_and_video/testimony1.ogg" controls></audio></div>
+                    <p>Rediet Wondume</p>
+                    <p>My advisor</p>
+                </div>
+            
+            </div>
+    </section>
+
+    <section class="section has-background-link-light my-3" id="s5">
+        <h2 class="title">Contact Me</h2>
+        <form class="form">
+            <div class="field my-0">
+                <div class="control">
+                    <input class="input" type="text" name="name" placeholder="Your name">
+                </div>
+                <div class="control">
+                    <input class="input" type="text" name="email" placeholder="Your email">
+              </div>
+            </div>
+            <div class="field my-0">
+                <input  class="input" type="text" name="subject" placeholder="Your subject">
             </div>
             
-            <textarea name="text" placeholder="Your message" cols="30" rows="10"></textarea>
+            <textarea class="textarea my-0" name="text" placeholder="Your message" cols="30" rows="10"></textarea>
             
-            <div><button type="submit" >SUBMIT</button></div>
+            <div><button class="button is-rounded my-0 has-background-link has-text-link-light" type="submit" >SUBMIT</button></div>
         </form>
     </section>
-    <footer>
-        <a href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
-        <a href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
-        <a href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
+    
+    
+    
+    <footer class="footer has-text-centered py-1 has-background-black">
+        <a  href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
+        <a  href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
+        <a  href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
     </footer>
+    <script defer>
+        //mobile menu
+        console.log('hi');
+        const burgericon = document.querySelector('.burger');
+        const navbarMenu = document.querySelector('.nav-links');
+
+        burgericon.addEventListener('click',()=>{navbarMenu.classList.toggle('is-active')});
+    </script>
     
 </body>
 </html>

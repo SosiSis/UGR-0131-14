@@ -4,62 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT ME</a></li>
-                <li><a href="resume.html">RESUME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li> <a href="contact.html">CONTACT ME</a></li>
+    <header class="hero has-background-black" id="s">
+        
+       
+        
+        <nav class="navbar">
+            <a class="navbar-burger burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="navbar-menu is-justify-content-space-around nav-links has-background-black ">
+                <li ><a class="navbar-item has-text-link-light" href="index.html">HOME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="about.html">ABOUT ME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="resume.html">RESUME</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="portfolio.html">PORTFOLIO</a></li>
+                <li ><a class="navbar-item has-text-link-light" href="contact.html">CONTACT ME</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h2>Contact Me</h2>
+    <section class="section has-background-link-light">
+        <h2 class="title">Contact Me</h2>
         <div>
             <img src="images/icons/location_icon.png" width="20"  alt="img">
-            <span>Address: Addis Ababa,Ethiopia</span>
+            <span class="subtitle">Address: Addis Ababa,Ethiopia</span>
         </div>
-        <div>
+        <div class="email">
             <img src="images/icons/mail_icon.png" width="20" alt="img">
-            <span>Email: <a href="mailto:sosinasisay30@gmail.com">sosinasisay30@gmail.com</a></span>
+            <span class="subtitle">Email: <a href="mailto:sosinasisay30@gmail.com">sosinasisay30@gmail.com</a></span>
         </div>
         <div>
             <img src="images/icons/telephone_icon.png" width="20"  alt="img">
-            <span>Phone: +251-993763308</span>
+            <span class="subtitle">Phone: +251-993763308</span>
         </div>
         
         
        
     </section>
-    <section>
-        <h5>Fill this form to contact me</h5>
+    <section class="has-background-link-light">
+        <h5 class="is-size-5">Fill this form to contact me</h5>
         
-        <form >
-            <div>
+        <form class="form ">
+            
                
-                <div>
-                    <input type="text" name="email" placeholder="Your email">
-                </div>
+            <div class="content my-0 ">
+                <input class="input" type="text" name="email" placeholder="Your email">
             </div>
-            <div>
-                <input type="text" name="subject" placeholder="Your subject">
+          
+            <div class="content my-0 ">
+                <input class="input" type="text" name="subject" placeholder="Your subject">
             </div>
             
-            <textarea name="message" placeholder="Your message" cols="30" rows="10"></textarea>
+            <textarea class='my-0 textarea' name="message" placeholder="Your message" cols="30" rows="10"></textarea>
             
-            <div><button type="submit" >SUBMIT</button></div>
+            <div><button class="button has-background-link has-text-link-light" type="submit" >SUBMIT</button></div>
         </form>
     </section>
-    <footer>
-        <a href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
-        <a href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
-        <a href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
+    
+    <footer  class="footer has-text-centered py-1 has-background-black">
+        <a  href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
+        <a  href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
+        <a  href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
     </footer>
+    <script defer>
+        //mobile menu
+        console.log('hi');
+        const burgericon = document.querySelector('.burger');
+        const navbarMenu = document.querySelector('.nav-links');
+
+        burgericon.addEventListener('click',()=>{navbarMenu.classList.toggle('is-active')});
+    </script>
     
 </body>
 </html>
