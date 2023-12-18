@@ -1,107 +1,37 @@
-// let number1 = document.getElementById('number1');
-// let number2 = document.getElementById('number2');
-// let number3 = document.getElementById('number3');
-// let number4 = document.getElementById('number4');
-// let number5 = document.getElementById('number5');
-// let number6 = document.getElementById('number6');
-// let number7 = document.getElementById('number7');
-// let number8 = document.getElementById('number8');
 
-// let counter1=0;
-// const interval1 = setInterval(() => {
-//   if (counter1 === 95) {
-//     clearInterval(interval1);
-//   } else {
-//     counter1 += 1;
-//     number1.innerHTML = counter1 + '%';
-//   }
-// }, 15);
-
-// let counter2=0
-// const interval2 = setInterval(() => {
-//   if (counter2 === 60) {
-//     clearInterval(interval2);
-//   } else {
-//     counter2 += 1;
-//     number2.innerHTML = counter2 + '%';
-//   }
-// }, 20);
-
-// let counter3=0;
-// const interval50 = setInterval(() => {
-//   if (counter3 === 75) {
-//     clearInterval(interval50);
-//   } else {
-//     counter3 += 1;
-//     number3.innerHTML = counter3 + '%';
-//   }
-// }, 20);
-
-// let counter4=0;
-// const interval4 = setInterval(() => {
-//   if (counter4 === 55) {
-//     clearInterval(interval4);
-//   } else {
-//     counter4 += 1;
-//     number4.innerHTML = counter4 + '%';
-//   }
-// }, 20);
-
-
-// let counter5=0;
-// const interval5 = setInterval(() => {
-//   if (counter5 === 75) {
-//     clearInterval(interval5);
-//   } else {
-//     counter5 += 1;
-//     number5.innerHTML = counter5 + '%';
-//   }
-// }, 20);
-
-// let counter6=0;
-// const interval6 = setInterval(() => {
-//   if (counter6 === 45) {
-//     clearInterval(interval6);
-//   } else {
-//     counter6 += 1;
-//     number6.innerHTML = counter6 + '%';
-//   }
-// }, 20);
-
-// let counter7=0;
-// const interval7 = setInterval(() => {
-//   if (counter7 === 75) {
-//     clearInterval(interval7);
-//   } else {
-//     counter7 += 1;
-//     number7.innerHTML = counter7 + '%';
-//   }
-// }, 20);
-
-// let counter8=0;
-// const interval8 = setInterval(() => {
-//     if (counter8 === 75) {
-//       clearInterval(interval8);
-//     } else {
-//       counter8 += 1;
-//       number8.innerHTML = counter8 + '%';
-//     }
-//   }, 20);
-
-
-
-hsl(347, 90%, 96%)
-
-var s1=document.getElementById('s2');
- s1.style.backgroundColor='white';
+var s2 = document.getElementById('s2');
+s2.style.backgroundColor = '#F2F2F2';
  var profileImg = document.querySelector('.hero-section');
 profileImg.style.height = '511px';
-var profileIm = document.querySelector('.hero-section__profile--img');
-profileIm.style.backgroundColor = 'white'
-profileIm.style.height = '511px';
+var profileImg = document.querySelector('.hero-section__profile--img');
+profileImg.style.border = 'none';
+profileImg.style.backgroundColor = '#F2F2F2';
+profileImg.style.height = '511px';
 
 
-var textareas = document.getElementsByTagName('textarea');
-for (var i = 0; i < textareas.length; i++) {
-  textareas[i].style.width = "100%";
-}
+
+
+document.getElementById('myForm').addEventListener('submit', function (e) {
+  e.preventDefault(); // Prevent form submission
+
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var subject = document.getElementById('subject').value;
+  var message = document.getElementById('message').value;
+
+  if (name === '' || email === '' || subject === '' || message === '') {
+    // Display error message if any field is empty
+    alert('Please fill in all fields');
+  } else {
+    // All fields are filled, display success message
+    alert('Submitted');
+    // You can also proceed with form submission using:
+    // e.target.submit();
+  }
+});
+
+var textarea = document.getElementById('message');
+textarea.style.width = "100%";
+
+
+        
