@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        <div></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT ME</a></li>
-                <li><a href="resume.html">RESUME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li> <a href="contact.html">CONTACT ME</a></li>
+    <header class="bg-gray-900 pt-4 pb-4">
+        <nav class="">
+        
+            <div class="flex justify-end px-4 cursor-pointer lg:hidden" id="burger">
+                <svg class="text-indigo-100 w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+                  </svg>
+                  
+
+            </div>
+            
+              
+            <ul class="hidden lg:block xl:block lg:flex lg:justify-around xl:flex xl:justify-around  " id="menu">
+                <li ><a class="text-indigo-100" href="index.html">HOME</a></li>
+                <li ><a class="text-indigo-100" href="about.html">ABOUT ME</a></li>
+                <li ><a class="text-indigo-100" href="resume.html">RESUME</a></li>
+                <li ><a class="text-indigo-100" href="portfolio.html">PORTFOLIO</a></li>
+                <li ><a class="text-indigo-100" href="contact.html">CONTACT ME</a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section class='m-4 border border-gray-200 shadow-lg p-4' >
         <div>
-            <div><span>Sosina Sisay</span>  <span>+251-993763308|sosinasisay30@gmail.com|www.linkedin.com/in/sosina</span></div>
+            <div class="my-1">Sosina Sisay</div>
         </div>
-        <h2>FULL STACK WEB DEVELOPER</h2>
+        <h2 class="">FULL STACK WEB DEVELOPER</h2>
         <p>I am a motivated and dynamic Web Developer who possesses a keen focus and extensive experience in web application development and web layout design. I have a strong work ethic and a natural ability to adapt to ever-changing and challenging environments.
             In terms of education, I have received formal training and gained practical experience in comprehensive problem solving, creative troubleshooting, and complex project management. This background equips me with the skills necessary to tackle intricate issues and find innovative solutions.
             Furthermore, I have achieved notable success in my career by leveraging effective collaboration skills, fostering team building capabilities, and demonstrating leadership qualities. These attributes have allowed me to excel in diverse and multifaceted operations, where I have consistently delivered exceptional results.
             Overall, I am a dedicated and versatile Web Developer who is driven by a passion for creating outstanding web applications and designing captivating web layouts. My adaptability, problem-solving abilities, and project management expertise contribute to my success in the field. Additionally, my collaborative nature, team-building skills, and leadership qualities enable me to thrive in various professional settings. </p>
-        <h2>CORE COMPLATION</h2>
+        <h2 class=" my-3">CORE COMPLATION</h2>
         <p>Creative Problem Solving | Communications | Business Operations | Quality Assurance | Project Management | Enterprise Web Application Development | Web Layout Design | Stored Procedures | Software Development
 
         </p>
-        <h2>SELECTED PROJECT</h2>
+        <h2 class=" my-3">SELECTED PROJECT</h2>
         <ul>
             <li>Collaborated with a talented team of backend developers including driving all client facing applications. </li>
             <li> Ensured proper receiving and posting of data to the database using REST API. </li>
@@ -44,21 +54,32 @@
              
             
             
-        <h2>EDUCATION</h2>
-        <h3>Diploma</h3>
+        <h2 class="">EDUCATION</h2>
+        <h3 class="">Diploma</h3>
         <p></p>
-        <h3>Technical profile</h3>
+        <h3 class="" >Technical profile</h3>
         <p>|JavaScript | PHP | HTML | XHTML | CSS | React | Node | Express | WordPress | Bootstrap | Windows | Linux | MySQL | Mango DB | PostgreSQL | GitHub | Adobe Photoshop | VS Code | Slack
 
         </p>
+        <div class="mt-4" ><a class="bg-gray-700 text-indigo-100 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer "  href="CV.pdf" download>Download CV</a></div>
         
-    </section>
-    <div><a href="CV.pdf" download>Download CV</a></div>
-    <footer>
-        <a href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
-        <a href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
-        <a href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
+    </section >
+    
+  
+     
+    <footer class="bg-gray-900 pt-4 pb-4 flex justify-center">
+        <a  href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
+        <a  href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
+        <a  href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
     </footer>
+    <script defer>
+        //mobile menu
+       
+        const burger = document.getElementById('burger');
+        const menu = document.getElementById('menu');
+
+        burger.addEventListener('click',()=>{if(menu.classList.contains('hidden')){menu.classList.remove('hidden')}else{menu.classList.add('hidden')}});
+    </script>
     
 </body>
 </html>
