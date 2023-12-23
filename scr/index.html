@@ -4,120 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../scr/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+    
 </head>
 <body>
-    <header>
-        <div></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT ME</a></li>
-                <li><a href="resume.html">RESUME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li> <a href="contact.html">CONTACT ME</a></li>
+    <header class="bg-dark" >
+        <nav class=" navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler bg-light" id="burger" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" ><span class="navbar-toggler-icon"></span></button>
+            <ul class="collapse navbar-collapse justify-content-around align-center navbar-nav " id="main-nav">
+                <li class="nav-item" ><a class="nav-link text-light" href="index.html">HOME</a></li>
+                <li class="nav-item" ><a class="nav-link text-light" href="about.html">ABOUT ME</a></li>
+                <li class="nav-item" ><a class="nav-link text-light" href="resume.html">RESUME</a></li>
+                <li class="nav-item" ><a class="nav-link text-light" href="portfolio.html">PORTFOLIO</a></li>
+                <li class="nav-item" ><a class="nav-link text-light" href="contact.html">CONTACT ME</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <div>
-                <img src="images/profile.png" alt="" width="300">
-            </div>
-        </div>
-        <div>
-            
-            <h1>Hi , I'm Sosina </h1>
-            <p>I am a web designer and full stack web developer. In my role, I have the unique opportunity to blend creativity and technical expertise to create visually appealing and highly functional websites. I bring a touch of artistry to the digital realm, envisioning and building virtual structures that captivate visitors.</p>
-            
-        </div>
-        
-
-    </section>
-
-    <section>
-        <h2>About Me</h2>
-        <div>
-            <h3>Personal Information</h3>
-            <div>
-                <ul>
-                    
-                    <li>First name:Sosina</li>
-                    <li>Age:20</li>
-                    <li>Phone:+251-993763308</li>
-                    <li>Address: Addis Ababa, Ethiopia</li>
-                </ul>
-            </div>
-            <button></button>
-        
-            <div>
-                <ul>
-                    <li>Last name:Sisay</li>
-                    <li>Nationality:Ethiopian</li>
-                    <li>Email:sosinasisay30@gmail.com</li>
-                    <li>Language:English,Amharic</li>
-                </ul>
-            </div>
-        </div>
-       
-        <div>
-            <div>
-                <div><p>2 <sup>+</sup><br> years of expriance </p></div>
-                <div>20 <sup>+</sup><br> Happy customer </div>
-                <div>5 <sup>+</sup><br> complated project </div>
-                <div>3 <sup>+</sup><br> awards won </div>
-            </div>
-        </div>
-
-    </section>
     
-    <section>
-        <h2>Testimony</h2>
-        <p>These are some testimonies about me.</p>
-        <div>
-            <div>
-                <div><audio src="audio_and_video/testimony1.ogg" controls></audio></div>
-                <p>Roman Kebede</p>
-                <p>Manager of the project I work.</p>
+    <section class="container-lg bg-light shadow p-3 mb-5 bg-body-tertiary rounded" >
+        <div class="row align-items-center">
+            <div class="col-12 col-md-4 order-md-2 rounded">
+              <div class="text-center rounded ">
+                <img class="rounded " src="images/profile.png" alt="" width="250">
+              </div>
             </div>
-            <div>
-                <div><audio src="audio_and_video/testimony2.ogg" controls></audio></div>
-                <p>Liya Daniel</p>
-                <p>Teammate</p>
+            <div class="col-12 col-md-8">
+              <h1 class="">Hi, I'm Sosina</h1>
+              <p class="fs-4">I am a web designer and full stack web developer. In my role, I have the unique opportunity to blend creativity and technical expertise to create visually appealing and highly functional websites. I bring a touch of artistry to the digital realm, envisioning and building virtual structures that captivate visitors.</p>
             </div>
-            <div>
-                <div><audio src="audio_and_video/testimony1.ogg" controls></audio></div>
-                <p>Rediet Wondume</p>
-                <p>My advisor</p>
-            </div>
-            
         </div>
+        
+
     </section>
 
-    <section>
-        <h2>Contact Me</h2>
-        <form >
-            <div>
-                <div>
-                    <input type="text" name="name" placeholder="Your name">
+    <section class="container-lg shadow p-3 mb-5 bg-body-tertiary rounded" >
+        <h2 class="">About Me</h2>
+        <h3 class="">Personal Information</h3>
+        <div class="" >
+            <div class="row">
+                
+                    <ul class="col-12 col-md-4">
+                        
+                        <li>First name:Sosina</li>
+                        <li>Last name:Sisay</li>
+                        <li>Age:20</li>
+                        <li>Phone:+251-993763308</li>
+                     
+                        <li>Address: Addis Ababa, Ethiopia</li>
+                        <li>Nationality:Ethiopian</li>
+                        <li>Email:sosinasisay30@gmail.com</li>
+                        <li>Language:English,Amharic</li>
+                    </ul>
+                
+               
+        
+                <div class="col-md-8">
+                    <div class="row justify-content-around">
+                        <div class="col m-2 bg-light fs-5">2+<br>years of experience</div>
+                        <div class="col m-2  bg-light fs-5">20+<br>Happy customers</div>
+                        <div class="col m-2  bg-light fs-5">5+<br>completed projects</div>
+                        <div class="col m-2  bg-light fs-5">3+<br>awards won</div>
+                    </div>
                 </div>
-                <div>
-                    <input type="text" name="email" placeholder="Your email">
+
+        </div>
+                
+        <div class="btn bg-secondary m-1 text-light border border-dark"><a class="text-decoration-none" href="about.html">More me</a></div>  
+    </section>
+        
+    <section class="container-lg shadow p-3 mb-5 bg-body-tertiary rounded" >
+            <h2 class="">Testimony</h2>
+            <p class="fs-4">These are some testimonies about me.</p>
+            <div class="row container-md-fluid bg-light p-6">
+                <div class="col-md-6 col-lg-4 text-center">
+                    <div class=""><audio class="" src="audio_and_video/testimony1.ogg" controls></audio></div>
+                    <p class='m-0'>Roman Kebede</p>
+                    <p>Manager of the project I work.</p>
                 </div>
+                <div class="col-md-6 col-lg-4 text-center">
+                    <div class=""><audio class="" src="audio_and_video/testimony2.ogg" controls></audio></div>
+                    <p class='m-0'>Liya Daniel</p>
+                    <p>Teammate</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center">
+                    <div class=""><audio class="" src="audio_and_video/testimony1.ogg" controls></audio></div>
+                    <p class='m-0'>Rediet Wondume</p>
+                    <p>My advisor</p>
+                </div>
+            
             </div>
-            <div>
-                <input type="text" name="subject" placeholder="Your subject">
+    </section>
+
+    <section class="" >
+        <h2 class="text-center">Contact Me</h2>
+        <form class="row justify-content-center my-5 ">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input class="w-100 form-control" type="text" name="name" placeholder="Your name">
+                    </div>
+                    <div class="col-md-6">
+                        <input class="w-100  form-control" type="text" name="email" placeholder="Your email">
+                  </div>
+                </div>
+                <div class="w-100">
+                    <input  class="w-100  form-control" type="text" name="subject" placeholder="Your subject">
+                </div>
+                
+                <textarea class="w-100  form-control" name="text" placeholder="Your message" cols="30" rows="10"></textarea>
+                
+                <div><button class="btn bg-secondary m-1 text-light" type="submit" >SUBMIT</button></div>
+
             </div>
             
-            <textarea name="text" placeholder="Your message" cols="30" rows="10"></textarea>
-            
-            <div><button type="submit" >SUBMIT</button></div>
         </form>
     </section>
-    <footer>
-        <a href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
-        <a href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
-        <a href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
+    
+    
+    
+    <footer class="text-center bg-dark ">
+        <a  href="#"><img src="images/icons/instagram_logo.png" alt="" width="20"></a>
+        <a  href="#"><img src="images/icons/linkedin_logo.png" alt=""  width="20"></a>
+        <a  href="https://t.me/sosina_s"><img src="images/icons/telegram_logo.png" alt=""  width="20"></a>
     </footer>
     
+    <script src='JS/script.js'></script>
 </body>
 </html>
